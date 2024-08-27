@@ -4,19 +4,19 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
       <h1>Deploying React Code on Github</h1>
+      <ol>
+        <li>Create Project</li>
+        <li>Create Repo</li>
+        <li>Connect repo with your project</li>
+        <li>if you are deploying on the vercel using vite then add vercel.json file</li>
+        <li>simple login to vercel or netlify</li>
+        <li>import your github repo</li>
+        <li>Deloy your repo</li>
+      </ol>
     </>
   );
 }
